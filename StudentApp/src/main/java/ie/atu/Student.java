@@ -1,14 +1,20 @@
 package ie.atu;
 
 public class Student {
-    String name, email, course;
+    String name;
+    String email;
+    String course;
 
-    public Student(String name, String email, String course) {
-        name = " ";
-        email = " ";
-        course = " ";
+    //Constructor
+    public Student()
+    {
+        System.out.println();
+        this.name = " ";
+        this.email = " ";
+        this.course = " ";
     }
 
+    //Setters and Getters
     public String getName() {
         return name;
     }
